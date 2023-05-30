@@ -37,6 +37,12 @@ bin/pip install google-api-python-client
 
 https://googleapis.github.io/google-api-python-client/docs/dyn/admin_directory_v1.users.html
 
+### Python じゃなくて Nodejs でどうやるか
+
+GoogleAuth オブジェクトじゃなくて JWT を使って subject を指定する。
+
+- https://github.com/googleapis/google-api-nodejs-client/issues/1699#issuecomment-812411745
+
 ## gcloud --help
 
 ```
